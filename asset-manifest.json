@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/yuan-rockfest/static/css/main.691ce2d6.css",
+    "main.js": "/yuan-rockfest/static/js/main.0fad3f3c.js",
+    "index.html": "/yuan-rockfest/index.html",
+    "main.691ce2d6.css.map": "/yuan-rockfest/static/css/main.691ce2d6.css.map",
+    "main.0fad3f3c.js.map": "/yuan-rockfest/static/js/main.0fad3f3c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.691ce2d6.css",
+    "static/js/main.0fad3f3c.js"
+  ]
+}

@@ -1,13 +1,13 @@
 
 import React from "react";
 import "./Intro.css";
-import birthdayImage from "./intro_birthday.jpg";
+import introImage from "../images/intro_image.jpeg";
 
 function Intro() {
   return (
     <div className="intro_fullscreen">
       <img
-        src={birthdayImage}
+        src={introImage}
         alt="Happy 1st Birthday"
         className="intro_fullscreen_img"
       />

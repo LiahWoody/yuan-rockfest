@@ -6,7 +6,6 @@ import Message from './message/Message';
 import Gallery from './gallery/Gallery';
 import Calendar from './calendar/Calendar';
 import Location from './location/Location';
-import Contact from './contact/Contact';
 import Share from './share/Share';
 import Footer from './footer/Footer';
 
@@ -18,7 +17,6 @@ root.render(
     <Gallery />
     <Calendar />
     <Location />
-    <Contact />
     <Share />
     <Footer />
   </React.StrictMode>

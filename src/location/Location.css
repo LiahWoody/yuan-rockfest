@@ -1,5 +1,70 @@
 /* Location 컴포넌트 스타일 */
-.location_container { padding: 2em; text-align: center; }
-.title { font-size: 1.3em; margin-bottom: 0.5em; }
-.location_text1, .location_text2 { margin-bottom: 0.5em; color: #555; }
-.location_detail_container { margin-top: 1em; font-size: 1em; color: #888; }
+.location_container {
+  background-color: #f4f6f9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 60px;
+}
+.title {
+  font-size: 26px;
+  text-align: center;
+  color: #5f5f5f;
+  font-family: var(--font-butler_medium);
+}
+.divider {
+  border: solid 0 #5f5f5f;
+  background-color: #cfcfcf;
+  height: 1px;
+  width: 100%;
+}
+.image_location {
+  margin-top: 4px;
+  width: 100%;
+}
+.location_text1 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #7f7f7f;
+  font-family: var(--font-maruburi);
+}
+
+.location_text2 {
+  text-align: center;
+  font-size: 17px;
+  margin-top: 8px;
+  color: #5f5f5f;
+  font-family: var(--font-maruburi);
+}
+.location_detail_container {
+  background-color: white;
+  color: #5f5f5f;
+  display: flex;
+  flex-direction: row;
+  margin-top: 16px;
+  padding: 1.6em 1em;
+  font-size: 14px;
+  line-height: 1.4em;
+  font-family: var(--font-maruburi);
+}
+.shortcut_container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 8px;
+}
+.shortcut_button {
+  background-color: white;
+  color: #6f6f6f;
+  border: solid 1px #cfcfcf;
+  padding: 4px 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  width: 100%;
+  font-family: var(--font-maruburi);
+}

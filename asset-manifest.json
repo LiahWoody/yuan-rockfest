@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/yuan-rockfest/static/css/main.019f8501.css",
-    "main.js": "/yuan-rockfest/static/js/main.18f86a8c.js",
+    "main.css": "/yuan-rockfest/static/css/main.e1ca432a.css",
+    "main.js": "/yuan-rockfest/static/js/main.147cd0d1.js",
     "static/media/intro_image.jpeg": "/yuan-rockfest/static/media/intro_image.7911f202332148cf2fa6.jpeg",
     "index.html": "/yuan-rockfest/index.html",
-    "main.019f8501.css.map": "/yuan-rockfest/static/css/main.019f8501.css.map",
-    "main.18f86a8c.js.map": "/yuan-rockfest/static/js/main.18f86a8c.js.map"
+    "main.e1ca432a.css.map": "/yuan-rockfest/static/css/main.e1ca432a.css.map",
+    "main.147cd0d1.js.map": "/yuan-rockfest/static/js/main.147cd0d1.js.map"
   },
   "entrypoints": [
-    "static/css/main.019f8501.css",
-    "static/js/main.18f86a8c.js"
+    "static/css/main.e1ca432a.css",
+    "static/js/main.147cd0d1.js"
   ]
 }

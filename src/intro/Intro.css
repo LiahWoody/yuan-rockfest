@@ -1,20 +1,16 @@
-/* Intro 컴포넌트 스타일 */
-
-.intro_fullscreen {
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100vw;
-	height: 100vh;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	background: #e0e0e0;
-	z-index: 9999;
+.intro_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    color: #7f7f7f;
 }
 
-.intro_fullscreen_img {
-	width: 100vw;
-	height: 100vh;
-	object-fit: cover;
+.intro_image {
+    width: 100%;
+}
+
+.image_right_name {
+    font-size: 16px;
+    font-family: var(--font-magazine);
 }

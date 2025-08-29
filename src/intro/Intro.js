@@ -5,11 +5,11 @@ import introImage from "../images/intro_image.jpeg";
 
 function Intro() {
   return (
-    <div className="intro_fullscreen">
+    <div className="intro_container">
       <img
         src={introImage}
         alt="Happy 1st Birthday"
-        className="intro_fullscreen_img"
+        className="intro_image"
       />
     </div>
   );

@@ -3,3 +3,42 @@
   padding: 2em;
   text-align: center;
 }
+
+.gallery_main_image_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.5em;
+}
+
+.gallery_main_image {
+  width: 95%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.12);
+}
+
+.gallery_thumbnails {
+  display: flex;
+  justify-content: center;
+  gap: 0.5em;
+  margin-top: 1em;
+}
+
+.gallery_thumbnail {
+  width: 60px;
+  height: 45px;
+  object-fit: cover;
+  border-radius: 6px;
+  cursor: pointer;
+  opacity: 0.7;
+  border: 2px solid transparent;
+  transition: opacity 0.2s, border 0.2s;
+}
+
+.gallery_thumbnail.selected {
+  opacity: 1;
+  border: 2px solid #1976d2;
+  box-shadow: 0 0 8px rgba(25, 118, 210, 0.2);
+}

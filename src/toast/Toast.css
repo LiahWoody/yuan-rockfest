@@ -1,0 +1,2 @@
+/* Toast 컴포넌트 스타일 */
+.toast { background: #222; color: #fff; padding: 0.7em 1.2em; border-radius: 1em; display: inline-block; margin-top: 1em; }

@@ -1,0 +1,5 @@
+/* Contact 컴포넌트 스타일 */
+.contact_container { padding: 2em; text-align: center; }
+.contact_text1, .contact_text2 { margin-bottom: 1em; }
+button { margin: 0.5em; }
+.modal { background: #f9f9f9; border: 1px solid #ccc; padding: 1em; margin-top: 1em; }

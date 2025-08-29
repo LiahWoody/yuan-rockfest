@@ -1,0 +1,4 @@
+/* Share 컴포넌트 스타일 */
+.share_container { padding: 2em; text-align: center; }
+button { margin: 0.5em; }
+.toast { margin-top: 1em; color: green; }

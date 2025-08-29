@@ -9,7 +9,7 @@
 .Message-title {
     font-size: 22px;
     color: #3E3E3E;
-    margin-top: 3.2em;
+    margin-top: 2.2em;
     font-family: var(--font-butler_light);
 }
 
@@ -20,7 +20,7 @@
     margin-top: 1.2em;
     margin-left: 1em;
     margin-right: 1em;
-    margin-bottom: 1.5em;
+    margin-bottom: 2.2em;
     font-family: var(--font-maruburi);
 }
 

@@ -1,3 +1,5 @@
 /* Gallery 컴포넌트 스타일 */
-.gallery_container { padding: 2em; text-align: center; }
-.first_text1, .first_text2, .second_text, .third_text, .fourth_text, .sixth_text, .nineth_text { margin: 1em 0; font-size: 1.1em; }
+.gallery_container {
+  padding: 2em;
+  text-align: center;
+}

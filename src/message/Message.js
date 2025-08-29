@@ -1,19 +1,30 @@
-import React from "react";
 import "./Message.css";
 
 function Message() {
   return (
     <div className="Message">
-      <div className="Message-title">INVITATION</div>
-      <div className="Message-message">
-        새로운 마음과 새 의미를 간직하며<br />
-        저희 두 사람이 새 출발의 첫 걸음을 내딛습니다.<br />
-        축복과 격려 주시면 더 없는 기쁨으로 간직하겠습니다.<br />
+      <div className="footer_container">
+        2025. 09. 25. 목요일 PM 12:50
+        <br />
+        소르티르
       </div>
-      <div className="message_member">
-        <b className="message_member_highligt">홍길동 · 김유진</b>의&nbsp;&nbsp;장남 <b className="message_member_highligt">홍길동</b><br/>
-        <b className="message_member_highligt">이철수 · 박영희</b>의&nbsp;&nbsp;차녀 <b className="message_member_highligt">김유진</b>
-      </div>
+      <header className="Message-header">
+        <div className="Message-title">INVITATION</div>
+        <div className="Message-message">
+          사랑과 기쁨 속에 태어난
+          <br />
+          저희 아이가 어느덧 첫해를 맞이합니다.
+          <br />
+          건강하게 자라온 발걸음을 함께 축하해 주시고,
+          <br />
+          밝고 바르게 성장할 수 있도록
+          <br />
+          따뜻한 축복과 격려를 나누어 주시면
+          <br />
+          큰 기쁨으로 간직하겠습니다.
+          <br />
+        </div>
+      </header>
     </div>
   );
 }

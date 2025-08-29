@@ -10,7 +10,18 @@
     width: 100%;
 }
 
-.image_right_name {
-    font-size: 16px;
-    font-family: var(--font-magazine);
+.image_left {
+    position: absolute;
+    left: 16px;
+    bottom: 4px;
+    font-size: 6px;
+}
+
+.image_right {
+    right: 16px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    font-size: 6px;
+    align-items: flex-end;
 }

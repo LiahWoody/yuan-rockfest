@@ -1,6 +1,36 @@
-/* Message 컴포넌트 스타일 */
-.Message { padding: 2em; text-align: center; }
-.Message-title { font-size: 1.5em; margin-bottom: 1em; }
-.Message-message { margin-bottom: 1em; color: #555; }
-.message_member { font-size: 1em; color: #888; }
-.message_member_highligt { font-weight: bold; }
+.Message {
+    background-color: #ffffff;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.Message-title {
+    font-size: 22px;
+    color: #3E3E3E;
+    margin-top: 3.2em;
+    font-family: var(--font-butler_light);
+}
+
+.Message-message {
+    font-size: 16px;
+    color: #919191;
+    line-height: 1.75em;
+    margin-top: 1.2em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 1.5em;
+    font-family: var(--font-maruburi);
+}
+
+.footer_container {
+    background-color: #949494;
+    color: #DCDCDC;
+    padding-top: 1.1em;
+    padding-bottom: 1.1em;
+    text-align: center;
+    line-height: 135%;
+    font-size: calc(8px + 2vmin);
+    font-family: var(--font-maruburi);
+}

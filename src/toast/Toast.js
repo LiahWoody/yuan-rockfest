@@ -1,8 +1,5 @@
-import React from "react";
 import "./Toast.css";
 
-function Toast({ msg }) {
+export default function Toast({ msg = "메세지 없음" }) {
   return <div className="toast">{msg}</div>;
 }
-
-export default Toast;

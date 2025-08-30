@@ -1,4 +1,30 @@
-/* Share 컴포넌트 스타일 */
-.share_container { padding: 2em; text-align: center; }
-button { margin: 0.5em; }
-.toast { margin-top: 1em; color: green; }
+.share_container {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    background-color: white;
+}
+
+.share_icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+
+.share_button_container {
+    border: solid 1px #afafaf;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    padding: 8px;
+    color: #5f5f5f;
+    font-family: var(--font-maruburi);
+}
+
+.share_button_container:active {
+    background-color: #efefef;
+}

@@ -1,12 +1,12 @@
-import React from "react";
 import "./Calendar.css";
 
 function Calendar() {
   return (
-    <div className="calendar_container">
-      <h3>일정 안내</h3>
-      <p>2025년 10월 18일 토요일 오후 2시<br />
-      서울시 강남구 청첩장홀</p>
+    <div className="schedule_container">
+      <div className="title">SCHEDULE</div>
+      <hr className="divider" />
+      <div className="description">2025년 9월 25일 목요일 12시 50분<br />
+      소르티르 2호점</div>
     </div>
   );
 }

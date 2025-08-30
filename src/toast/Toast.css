@@ -1,2 +1,16 @@
 /* Toast 컴포넌트 스타일 */
-.toast { background: #222; color: #fff; padding: 0.7em 1.2em; border-radius: 1em; display: inline-block; margin-top: 1em; }
+.toast {
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  padding: 10px;
+  min-width: 200px;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 40px;
+  border: 1px solid black;
+  color: white;
+  text-align: center;
+  font-family: var(--font-maruburi);
+}

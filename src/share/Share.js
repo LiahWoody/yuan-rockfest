@@ -13,13 +13,13 @@ function Share() {
       try {
         await navigator.share({
           title: "이유안 돌잔치에 초대합니다.",
-          url,
+          url: url,
         });
       } catch (e) {
         // 공유 취소 등 에러 무시
       }
     } else {
-      copyToClipboard({url});
+      copyToClipboard(url);
       handleToast("링크가 복사 되었습니다");
     }
   };
@@ -59,7 +59,7 @@ function Share() {
       <div
         className="share_button_container"
         onClick={() => {
-          copyToClipboard({url});
+          copyToClipboard(url);
           handleToast("링크가 복사 되었습니다");
         }}
       >

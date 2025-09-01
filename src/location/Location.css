@@ -68,3 +68,12 @@
   width: 100%;
   font-family: var(--font-maruburi);
 }
+.attendance_request {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 17px;
+  color: #4f4f4f;
+  line-height: 1.4em;
+  font-family: var(--font-maruburi);
+  font-weight: bold;
+}

@@ -13,7 +13,7 @@ function Message() {
         <div className="Message-message">
           사랑과 기쁨 속에 태어난
           <br />
-          저희 아이가 어느덧 첫해를 맞이합니다.
+          유안이가 어느덧 첫 생일을 맞이합니다.
           <br />
           건강하게 자라온 발걸음을 함께 축하해 주시고,
           <br />

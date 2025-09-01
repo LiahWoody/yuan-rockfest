@@ -1,20 +1,29 @@
 
 import "./Gallery.css";
 
-import introImage from "../images/intro_image.jpeg";
+import image1 from "../images/image_gallery_001.jpeg";
+import image2 from "../images/image_gallery_002.jpeg";
+import image3 from "../images/image_gallery_003.jpeg";
+import image4 from "../images/image_gallery_004.jpeg";
+import image5 from "../images/image_gallery_005.jpeg";
+import image6 from "../images/image_gallery_006.jpeg";
+import image7 from "../images/image_gallery_007.jpeg";
+import image8 from "../images/image_gallery_008.jpeg";
+import image9 from "../images/image_gallery_009.jpeg";
+import image10 from "../images/image_gallery_010.jpeg";
 
 // 예시 이미지 배열 (실제 이미지 경로로 교체 가능)
 const images = [
-  introImage,
-  introImage,
-  introImage,
-  introImage,
-  introImage,
-  introImage,
-  introImage,
-  introImage,
-  introImage,
-  introImage,
+  image1,
+  image2,
+  image3,
+  image4,
+  image5,
+  image6,
+  image7,
+  image8,
+  image9,
+  image10,
 ];
 
 import { useState, useRef, useEffect } from "react";

@@ -14,7 +14,7 @@ function Location() {
 
   return (
     <div className="location_container">
-      <div className="title">LOCATION</div>
+      <div className="title">오시는길</div>
       <hr className="divider" />
       <img className="image_location" src={imageLocation} />
       <div className="shortcut_container">
@@ -67,6 +67,13 @@ function Location() {
           &nbsp;- 시외버스: 6001, 6004, 6008, 7200
           <br />
         </div>
+        <br />
+        <br />
+      </div>
+      <div className="attendance_request">
+        바쁘시더라도 참석 가능 여부를 알려주시면
+        <br />
+        마음 담아 정성껏 준비하겠습니다.
       </div>
     </div>
   );

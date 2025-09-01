@@ -70,8 +70,9 @@
 }
 .attendance_request {
   text-align: center;
-  margin-top: 20px;
-  font-size: 17px;
+  margin-top: 25px;
+  margin-bottom: 5px;
+  font-size: 15px;
   color: #4f4f4f;
   line-height: 1.4em;
   font-family: var(--font-maruburi);

@@ -7,9 +7,8 @@
 }
 
 .gallery_main_image_wrapper {
-  width: 500px;
-  height: 650px;
-  aspect-ratio: 4 / 3;
+  width: 90%;
+  height: 100%;
   margin: 0 auto 1.5em auto;
   display: flex;
   justify-content: center;
@@ -19,9 +18,9 @@
 
 
 .gallery_main_image {
-  width: 100%;
+  width: 90%;
   height: 100%;
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 3 / 4;
   object-fit: cover;
   border-radius: 12px;
   box-shadow: 0 2px 16px rgba(0,0,0,0.12);
@@ -48,10 +47,10 @@
   padding: 0;
 }
 .gallery_handle_left {
-  left: -44px;
+  left: -24px;
 }
 .gallery_handle_right {
-  right: -44px;
+  right: -24px;
 }
 .gallery_handle svg {
   display: block;

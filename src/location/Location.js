@@ -51,7 +51,7 @@ function Location() {
       <div className="location_text2">소르티르 2호점</div>
       <div className="location_detail_container">
         <div>
-          <b>주차 안내(2시간 무료)</b>
+          <b>주차 안내</b>
           <br />
           경기 화성시 동탄첨단산업1로 27 A동 지상 5층
           <br />

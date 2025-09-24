@@ -7,7 +7,7 @@ function Location() {
   const lng = 127.089737;
   const kakao = "kakaomap://route?ep={0},{1}&name={2}&by=CAR";
   const naver = "nmap://route/car?dlat={0}&dlng={1}&dname={2}";
-  const tmap = "tmap://route?rGoY={0}&rGoX={1}&rGoName={2}";
+  const tmap = "tmap://route?lat={0}&lon={1}&name={2}";
   const href = (scheme) => {
     window.location.href = format(scheme, lat, lng, '소르티르');
   };

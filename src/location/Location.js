@@ -3,13 +3,13 @@ import { format } from "react-string-format";
 import imageLocation from "../images/location_image.png";
 
 function Location() {
-  const lat = "37.210388";
-  const lng = "127.089737";
+  const lat = 37.210388;
+  const lng = 127.089737;
   const kakao = "kakaomap://route?ep={0},{1}&name={2}&by=CAR";
   const naver = "nmap://route/car?dlat={0}&dlng={1}&dname={2}";
   const tmap = "tmap://?rGoY={0}&rGoX={1}&rGoName={2}";
   const href = (scheme) => {
-    window.location.href = format(scheme, lat, lng, "소르티르");
+    window.location.href = format(scheme, lat, lng, '소르티르');
   };
 
   return (
